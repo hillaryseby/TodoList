@@ -8,6 +8,7 @@ export interface TodoPropsItems {
  
 
  export default function TodoItem( {todo , onCompletedChange} : TodoPropsItems) {
+   
     return(
         <div className="size-auto w-80"> 
             <label  className="flex justify-center border rounded-md py-4 gap-x-6 mt-5 hover:bg-red-300 cursor-pointer">
